@@ -1,11 +1,19 @@
+# Core dependencies
 streamlit
 numpy==1.23.5
-Pillow==8.3.2  # Try downgrading if 8.4.0 causes issues
-pip==24.3.1
-scikit-learn==1.0.2  # Or use the latest stable version
+Pillow==8.3.2  # Use this version to avoid issues with 8.4.0
 
-# Additions for compatibility and building
+# Machine learning and scientific computing
+scikit-learn==1.0.2
+
+# Metadata handling
+hachoir-core==1.3.3  # Or replace with the latest stable version if unavailable
+
+# Tools for building and compatibility
 cython
 setuptools
 wheel
 protobuf
+
+# Package manager
+pip==24.3.1
